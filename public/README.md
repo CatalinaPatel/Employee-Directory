@@ -1,3 +1,5 @@
+Employee directory created using React. it breaks up the application's UI into components, manage component state, and respond to user events.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

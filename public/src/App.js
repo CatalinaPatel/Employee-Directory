@@ -14,12 +14,12 @@ function App() {
       <div>
         <Home />
         <Navbar />
-        <Wrapper />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={Home} />
-      </Wrapper>
-      <Footer />
-    </div>
+        <Wrapper >
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={Home} />
+        </Wrapper>
+        <Footer />
+      </div>
     </Router >
   );
 }
