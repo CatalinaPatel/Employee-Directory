@@ -32,7 +32,7 @@ class Wrapper extends Component {
         }
     };
 
-    sortList() { 
+    sortList() {
         if (this.state.results) {
             let temp = [];
             temp[0] = this.state.results[0];
@@ -70,7 +70,7 @@ class Wrapper extends Component {
                         })}
                     </List>
                 ) : (
-                        <h3> No results found </h3>
+                        <h6> No results found </h6>
                     )}
             </div>
         );

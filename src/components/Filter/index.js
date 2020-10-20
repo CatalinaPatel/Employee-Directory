@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 
-
 function Filter(props) {
     let foo = "";
     if (props.type === "Male") {
