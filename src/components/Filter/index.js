@@ -11,7 +11,7 @@ function Filter(props) {
     }
 
     return (
-        <button type="button" className={foo} onClick={props.onClick}>List Employees by: {props.type}</button>
+        <button type="button" className={foo} onClick={props.onClick}> Gender: {props.type}</button>
     );
 }
 

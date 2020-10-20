@@ -32,7 +32,7 @@ class Wrapper extends Component {
         }
     };
 
-    sortList() { // Sorts by age
+    sortList() { 
         if (this.state.results) {
             let temp = [];
             temp[0] = this.state.results[0];
